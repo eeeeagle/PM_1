@@ -1,3 +1,7 @@
+#pragma once
+#ifndef TRIANGULAR_MATRIX
+#define TRIANGULAR_MATRIX
+
 #include <iostream>
 #include <iomanip>
 #include <vector>
@@ -56,3 +60,4 @@ public:
 		return size;
 	}
 };
+#endif
