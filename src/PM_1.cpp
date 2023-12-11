@@ -48,8 +48,8 @@ int main()
 	std::cout << std::endl;
 
 	TriangularMatrix<double> a(size);
-	std::vector b = random_vector<double>(size);
-	std::vector x = back_substitution(a, b);
+	std::vector<double> b = random_vector<double>(size);
+	std::vector<double> x = back_substitution(a, b);
 
 	std::cout << "Triangle matrix A:" << std::endl << a << std::endl;
 
